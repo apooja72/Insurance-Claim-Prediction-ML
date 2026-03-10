@@ -1,4 +1,4 @@
-[Open in Google Colab]([https://colab.research.google.com/drive/YOUR_NOTEBOOK_LINK)](https://colab.research.google.com/drive/1HdE-_2446UkCsBb1w_c1jA9RND2EV0Mu#scrollTo=Eai32sKRozW_)
+[Open in Google Colab][(https://colab.research.google.com/drive/1HdE-_2446UkCsBb1w_c1jA9RND2EV0Mu#scrollTo=Eai32sKRozW_)]
 # Insurance Claim Prediction using Machine Learning
 Insurance Claim Prediction is a machine learning project that aims to predict whether a vehicle insurance policyholder will make a claim based on various customer and vehicle-related features.
 The objective of this project is to apply machine learning techniques to analyze insurance data and build predictive models that can help insurance companies identify high-risk customers and improve decision-making.
