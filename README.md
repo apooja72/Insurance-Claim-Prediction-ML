@@ -1,98 +1,70 @@
-# Insurance-Claim-Prediction-ML
-nsurance Claim Prediction is a machine learning project that aims to predict whether a vehicle insurance policyholder will make a claim based on various customer and vehicle-related features. Built predictive models that can help insurance companies identify high-risk customers and improve decision-making.
-Project Overview
+# Insurance Claim Prediction using Machine Learning
 
-This project predicts whether a vehicle insurance customer will file a claim based on customer and vehicle information. Machine learning models are used to analyze the dataset and identify patterns that help insurance companies assess risk and make data-driven decisions.
+## Project Overview
+This project predicts whether a vehicle insurance customer will file a claim based on customer and vehicle-related features. Machine learning models are used to analyze the dataset and help identify potential insurance risks.
 
-Problem Statement
+---
 
-Insurance companies handle thousands of policies and claims. Predicting whether a customer is likely to make a claim can help companies:
+## Problem Statement
+Insurance companies need to assess the likelihood of claims to manage risk and improve decision-making. This project builds classification models to predict whether a policyholder will make an insurance claim.
 
-Reduce financial risk
+---
 
-Improve pricing strategies
+## Dataset
+The dataset includes various vehicle and policy attributes such as:
 
-Detect high-risk customers
+- Vehicle age  
+- Customer age  
+- Fuel type  
+- Engine type  
+- Transmission type  
+- Safety features (airbags, ESC, sensors)  
+- Vehicle specifications  
 
-This project builds a machine learning model to classify whether a policyholder will make an insurance claim.
+**Target Variable**
 
-Dataset
+`claim_status`
 
-The dataset contains vehicle and policy-related information such as:
+- 0 → No claim  
+- 1 → Claim
 
-Vehicle age
+---
 
-Customer age
+## Project Workflow
 
-Fuel type
+### Data Preprocessing
+- Removed unnecessary columns (`policy_id`)
+- Handled missing values
+- Encoded categorical variables
 
-Engine type
-
-Transmission type
-
-Safety features (airbags, ESC, sensors)
-
-Vehicle specifications
-
-Target variable:
-
-claim_status
-
-0 → No claim
-
-1 → Claim
-
-Project Workflow
-1 Data Preprocessing
-
-Removed unnecessary columns (policy_id)
-
-Handled missing values
-
-Encoded categorical variables
-
-2 Feature Selection
-
-Selected relevant features for model training
-
-3 Model Training
-
+### Model Training
 Three machine learning models were trained:
 
-Logistic Regression
+- Logistic Regression  
+- Decision Tree  
+- Random Forest  
 
-Decision Tree
-
-Random Forest
-
-4 Model Evaluation
-
+### Model Evaluation
 Models were evaluated using:
 
-Accuracy
+- Accuracy  
+- Precision  
+- Recall  
+- Confusion Matrix  
 
-Precision
+The best-performing model was selected based on evaluation metrics.
 
-Recall
+---
 
-Confusion Matrix
+## Tools & Technologies
 
-The best-performing model was selected based on these metrics.
+- Python  
+- Pandas  
+- Scikit-learn  
+- Matplotlib  
+- Seaborn  
+- Jupyter Notebook  
 
-Tools & Technologies
+---
 
-Python
-
-Pandas
-
-Scikit-learn
-
-Matplotlib
-
-Seaborn
-
-Jupyter Notebook
-
-Results
-
-The models were compared using performance metrics and visualized using confusion matrices and accuracy comparison charts.
+## Project Structure
